@@ -21,14 +21,14 @@ git clone https://github.com/Chukwukaoranile/AirBnB_clone
 In the console you can use the following commands:
 Command |First usage <img width=300/>|Second Usage <img width=300/>|Description
 ---|---|---|---
-help|`help <command>`||Prints a description about the command
-quit|`quit`||Exits the console
-create|`create <class name>`|`<class name>.create()`|Creates a class instance, saves it to the JSON file and prints the id
-show|`show <class name> <id>`|`<class name>.show(<id>)`|Prints the string representation of an instance based on the class name and id
-destroy|`destroy <class name> <id>`|`<class name>.destroy(<id>)`|Deletes an instance based on the class name and id (save the change into the JSON file)
-all|`all <class name>`|`<class name>.all()`|Prints all string representation of all instances based or not on the class name
-update|`update <class name> <id> <attribute> <value>`|`<class name>.update(<id>, <attribute>, <value>)`|Updates an instance based on the class name and id by adding or updating attribute (save the change into the JSON file)
-count|`count <class name>`|`<class name>.count()`|Prints the amount of a class instances
+help|`help <command>`|| The help command prints the lists of commands in the console
+quit|`quit`||The quit command is used to exits the console
+create|`create <class name>`|`<class name>.create()`|The create command is used to create class instance, saves it to the JSON file and prints the id
+show|`show <class name> <id>`|`<class name>.show(<id>)`|The show command was is used to print the string representation of instances based on the class name and id
+destroy|`destroy <class name> <id>`|`<class name>.destroy(<id>)`| destroy command is used to delete an instance based on the class name and id (save the change into the JSON file)
+all|`all <class name>`|`<class name>.all()`|The all command prints all string representation of all instances based or not on the class name
+update|`update <class name> <id> <attribute> <value>`|`<class name>.update(<id>, <attribute>, <value>)`|The update command is used to updates  instance based on the class name and id by adding or updating attribute (save the change into the JSON file)
+count|`count <class name>`|`<class name>.count()`| count command prints is used to prints the amount of a class instances
 
 You can manage the following classes:
 * BaseModel
